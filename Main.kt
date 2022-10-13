@@ -143,6 +143,7 @@ class LinkedList<A> {
     fun countIt(Node: Node<A>): Int? {
 
         // Counts the node's slot on the list from the start.
+        // Only necessary to illustrate the node can be found.
 
         var count = 1
         var node = head
